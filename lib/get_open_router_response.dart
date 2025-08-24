@@ -11,7 +11,7 @@ Future<String> getOpenRouterResponse(String salary, String expense) async {
   };
 
   final body = jsonEncode({
-    "model": "mistralai/mistral-small-3.2-24b-instruct:free", // AI model
+    "model": "google/gemini-2.0-flash-exp:free", // AI model
     "max_tokens": 1000, // Maximum number of tokens in the response
     "messages": [
       {
